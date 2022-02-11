@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>Italian pizza🍕 </title>
+</head>
+<body>
+  <h1 align="center">Best Italian PIZZA 🍕 in Edinbugh</h1>
+  <h2 align="center">Dine in&nbsp&nbsp&nbsp&nbsp&nbsp&nbspTake away&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMenu</h2>
+
+  <img src="piza.jpg" alt="piza" height="950px" align="right">
+  <br>
+  <form class="" action="https://formcarry.com/s/vf7MQDZu97N" method="post">
+  <fieldset>
+    <legend> <b>
+        <h3>Choose your pizza↡ </h3>
+      </b></legend>
+    <h4>Size</h4>
+    <label>Small 15cm</label>
+    <input type="radio" name="size" value="small" required>
+    <label>Medium 25cm</label>
+    <input type="radio" name="size" value="medium" required>
+    <label>Large 30cm</label>
+    <input type="radio" name="size" value="large" required>
+    <br>
+
+    <h4>Crust</h4>
+    <label>Classic Crust</label>
+    <input type="radio" name="crust" value="classic" required>
+    <label>Thin & Crispy</label>
+    <input type="radio" name="crust" value="thin" required>
+    <label>Stuffed Crust</label>
+    <input type="radio" name="crust" value="stuffed" required>
+    <br>
+
+    <h4>Toppings</h4>
+    <label for="Che">Cheese</label>
+    <input type="checkbox" name="Cheese" value="checked" id=Che>
+    <label for="Bac">Bacon</label>
+    <input type="checkbox" name="Bacon" value="checked" id=Bac>
+    <label for="Mushr">Mushrooms</label>
+    <input type="checkbox" name="Mushrooms" value="checked" id=Mushr>
+    <label for="Chick">Chicken</label>
+    <input type="checkbox" name="Chicken" value="checked" id=Chick> <br>
+    <label for="Oli">Olives</label>
+    <input type="checkbox" name="Olives" value="checked" id=Oli>
+    <label for="Tom">Tomatoes</label>
+    <input type="checkbox" name="Tomatoes" value="checked" id=Tom>
+    <label for="Pep">Peperoni</label>
+    <input type="checkbox" name="Peperoni" value="checked" id=Pep>
+    <label for="Chil">Chilli</label>
+    <input type="checkbox" name="Chilli" value="checked" id=Chil>
+
+    <h4>Extras</h4>
+    <label for="SpeChe">Special Cheese</label>
+    <input type="checkbox" name="SCheese" value="checked" id=SpeChe>
+    <label for="Mayo">Mayo</label>
+    <input type="checkbox" name="Mayo" value="checked" id=Mayo>
+    <label for="BarSau">Barbecue sauce</label>
+    <input type="checkbox" name="BSauce" value="checked" id=BarSau> <br>
+    <label for="Oni">Onions</label>
+    <input type="checkbox" name="Onions" value="checked" id=Oni>
+    <label for="Pepp">Pepper</label>
+    <input type="checkbox" name="Pepper" value="checked" id=Pepp>
+    <label for="GarSau">Garlic sauce</label>
+    <input type="checkbox" name="GSauce" value="checked" id=GarSau>
+  </fieldset>
+  <br>
+
+  <h4>Please choose the following:</h4>
+  <input list="options" name="DeliveryCollect" placeholder="Choose below">
+  <datalist id="options">
+    <option value="Collect">Collect</option>
+    <option value="Delivery">Delivery </option>
+  </datalist>
+  <br>
+
+  <h4>When would you like your order to be ready?</h4>
+  <label for="Time">Choose date and time</label>
+  <input type="datetime-local" name="time" placeholder="Time and Date">
+  <br>
+  <br>
+  <h3>Delivery information</h3>
+  <fieldset>
+    <legend>
+      <h3>Personal details </h3>
+    </legend>
+    <table>
+      <tbody>
+        <tr>
+          <td><label for="Fullname">Name:</label> </td>
+          <td><input type="text" name="FullName" id="fullname" placeholder="Your Name"> </td>
+        </tr>
+        <tr>
+          <td> <label for="Youremail">Your Email:</label> </td>
+          <td> <input type="email" name="Email" id="Your Email" placeholder="email@example.com"> </td>
+        </tr>
+        <tr>
+          <td> <label for="Phone">Phone:</label></td>
+          <td><input type="tel" name="Tel." id="Tel" placeholder="00000000000"></td>
+        </tr>
+        <tr>
+          <td><label for=Address">DeliveryAddress:</label></td>
+          <td><textarea name="Message" rows="6" cols="30" maxlenght="10" placeholder="Your address"></textarea></td>
+          <br>
+        </tr>
+      </tbody>
+    </table>
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>
+      <h3>Payment information</h3>
+    </legend>
+    <table>
+      <tbody>
+        <tr>
+          <td><label for="FullName">Card Holder's Full Name</label></td>
+          <td><input type="text" name="FullName" id="Full Name" placeholder="Full Name"> </td>
+        </tr>
+        <tr>
+          <td> <label for="CardNumber">Card Number</label></td>
+          <td><input type="number" name="CCnumber" id="CCnumber" placeholder="CC number"></td>
+        </tr>
+        <tr>
+          <td><label for="ExpiryDate">Expiry Date</label></td>
+          <td><input type="date" name="ExpiryDate" id="ExpiryDate"></td>
+        </tr>
+        <tr>
+          <td><label for="CVV">CVV</label></td>
+          <td><input type="number" name="CVV" id="CVV" placeholder="CVV"></td>
+        </tr>
+      </tbody>
+    </table>
+  </fieldset>
+  <br>
+  <p><input type="checkbox" name="Checktoleaveatip" value="left a tip">Check the box if you would like to leave a tip.</p>
+  <br>
+  <h4><label for="">Exra requests:</label></h4>
+  <textarea name="Message" rows="7" cols="35" maxlenght="10" placeholder="Your message here"></textarea>
+  <br>
+  <br>
+  <input type="submit" name="Place Your Order" value="Order Placed">
+  <br>
+</form>
+</body>
+</html>
